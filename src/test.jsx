@@ -14,11 +14,7 @@ const Toggle = ({ children }) => {
 const ToggleButton = () => {
   const { toggle, setToggle } = useContext(ToggleContext);
 
-  return (
-    <button type="radio" onClick={() => setToggle(!toggle)}>
-      Toggle
-    </button>
-  );
+  return <input type="radio" onChange={() => setToggle(!toggle)}></input>;
 };
 
 const Active = () => {

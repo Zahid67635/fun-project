@@ -6,8 +6,8 @@ function App() {
     <>
       <Toggle>
         <Toggle.Active>Active</Toggle.Active>
+        <Toggle.ToggleButton></Toggle.ToggleButton>
         <Toggle.InActive>InActive</Toggle.InActive>
-        <Toggle.ToggleButton>Active</Toggle.ToggleButton>
       </Toggle>
     </>
   );
